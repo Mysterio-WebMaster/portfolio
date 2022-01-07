@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+
+.landing
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#0e3b9cc4, #0e3b9cc4), url('/src/Components/1971371.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.navigation
+{
+    height: 10vh;
+    padding: 3.5vh;
+    
+}
+
+.navigation .menu
+{
+    text-align: center;
+}
+
+.navigation .menu ul li
+{
+    display: inline;
+    margin: 25px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.intro
+{
+    margin-top: 25%;
+}
+
+.intro h3
+{
+    background-color: white;
+    color: #0e3b9cc4;
+    width: fit-content;
+    padding: 5px 10px;
+    font-weight: bolder;
+}
+
+.intro h4
+{
+    font-size: 50px; 
+}
+
+.intro span
+{
+    font-weight: bold;
+}
+
+#tsparticles canvas
+{
+    position: absolute !important;
+}
+
+.scroller
+{
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+    transform: translate(-50%);
+}
+
+.m_scroll_arrows
+{
+  display: block;
+  width: 5px;
+  height: 5px;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+   
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  margin: 0 0 3px 4px;
+  
+  width: 16px;
+  height: 16px;
+}
+
+
+.unu
+{
+  margin-top: 1px;
+}
+
+.unu, .doi, .trei
+{
+    -webkit-animation: mouse-scroll 1s infinite;
+    -moz-animation: mouse-scroll 1s infinite;
+    animation: mouse-scroll 1s infinite;
+  
+}
+
+.unu
+{
+  -webkit-animation-delay: .1s;
+  -moz-animation-delay: .1s;
+  -webkit-animation-direction: alternate;
+  
+  animation-direction: alternate;
+  animation-delay: alternate;
+}
+
+.doi
+{
+  -webkit-animation-delay: .2s;
+  -moz-animation-delay: .2s;
+  -webkit-animation-direction: alternate;
+  
+  animation-delay: .2s;
+  animation-direction: alternate;
+  
+  margin-top: -6px;
+}
+
+.trei
+{
+  -webkit-animation-delay: .3s;
+  -moz-animation-delay: .3s;
+  -webkit-animation-direction: alternate;
+  
+  animation-delay: .3s;
+  animation-direction: alternate;
+  
+  
+  margin-top: -6px;
+}
+
+
+@-moz-keyframes mouse-wheel {
+    0% { top: 1px; }
+    25% { top: 2px; }
+    50% { top: 3px;}
+    75% { top: 2px;}
+    100% { top: 1px;}
+  }
+  @-o-keyframes mouse-wheel {
+  
+     0% { top: 1px; }
+    25% { top: 2px; }
+    50% { top: 3px;}
+    75% { top: 2px;}
+    100% { top: 1px;}
+  }
+  @keyframes mouse-wheel {
+  
+     0% { top: 1px; }
+    25% { top: 2px; }
+    50% { top: 3px;}
+    75% { top: 2px;}
+    100% { top: 1px;}
+  }
+  
+  @-webkit-keyframes mouse-scroll {
+  
+    0%   { opacity: 0;}
+    50%  { opacity: .5;}
+    100% { opacity: 1;}
+  }
+  @-moz-keyframes mouse-scroll {
+  
+    0%   { opacity: 0; }
+    50%  { opacity: .5; }
+    100% { opacity: 1; }
+  }
+  @-o-keyframes mouse-scroll {
+  
+    0%   { opacity: 0; }
+    50%  { opacity: .5; }
+    100% { opacity: 1; }
+  }
+  @keyframes mouse-scroll {
+  
+    0%   { opacity: 0; }
+    50%  { opacity: .5; }
+    100% { opacity: 1; }
+  }
+  
+
+/*===================================================================*/
+
+/*ABOUT*/
+
+.about, .skills, .contact
+{
+    padding: 55px;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+.profile
+{
+    width: 80%;
+    box-shadow: -13px 24px 47px -18px rgba(0,0,0,0.32);
+    -webkit-box-shadow: -13px 24px 47px -18px rgba(0,0,0,0.32);
+    -moz-box-shadow: -13px 24px 47px -18px rgba(0,0,0,0.32);
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+.aboutme hr
+{
+   width: 10%;
+   border: 4px solid black;
+}
+
+.aboutme .intro
+{
+    color: #0e3b9c;
+    font-size: 35px; 
+}
+
+.aboutme p
+{
+    margin: 25px 0;
+}
+
+.aboutme .quest
+{
+    color: #0e3b9c;
+    font-weight: 600;
+}
+
+
+/*===================================================================*/
+
+/*SKILLS*/
+.skills
+{
+    background: #0e3b9c0c;
+}
+
+.header .headertext{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.skills .header .desc{
+    text-align: center;
+}
+
+
+.skills .skillset
+{
+    margin-top: 45px;
+}
+
+.skills .skillset li
+{
+    font-weight: 300;
+}
+
+/*===================================================================*/
+.footer
+{
+    height: 10vh;
+    width: 100%;
+    background: black;
+    padding: 3.5vh;
+    text-align: center;
+    color: white;
+}

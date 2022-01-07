@@ -1,0 +1,19 @@
+@media screen and (max-width: 480px) {
+    .navigation
+    {
+        display: none;
+    }
+
+    .intro{
+        margin: 45% 35px 0 35px;
+    }
+
+    .intro h4{
+        font-size: 40px;
+    }
+
+    .intro p{
+        font-size: 14px;
+    }
+
+  }
