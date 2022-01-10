@@ -8,7 +8,7 @@ import { GoLocation, GoMail } from 'react-icons/go';
 function about() {
     return (
         <div className='about'>
-            <Container>
+            <Container fluid>
                 <Row>
                     <Col md={4}>
                         <img src={Profile} className='profile'/>
@@ -16,10 +16,10 @@ function about() {
                     <Col md={8}>
                         <div className="aboutme">
                             <h3> <b>About Me</b> </h3>
-                            <hr /><br></br>
+                            <hr />
 
                             <span className='intro'><h4>I'm Professional Web Developer</h4></span>
-                            <p>Inventive Web Developer creates novel site designs and innovative user interfaces. Technically proficient and analytical problem solver with calm and focused manner. Organized and dependable candidate successful at managing multiple priorities with a positive attitude. Willingness to take on added responsibilities to meet team goals. Friendly student available for weekend, evening and holiday shifts. Considered hardworking, punctual and driven. </p>
+                            <p className='desc'>Inventive Web Developer creates novel site designs and innovative user interfaces. Technically proficient and analytical problem solver with calm and focused manner. Organized and dependable candidate successful at managing multiple priorities with a positive attitude. Willingness to take on added responsibilities to meet team goals. Friendly student available for weekend, evening and holiday shifts. Considered hardworking, punctual and driven. </p>
 
                             <div className="details">
                                  <Row>

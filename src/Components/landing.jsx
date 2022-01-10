@@ -4,16 +4,17 @@ import {Container, Row, Col} from 'react-bootstrap'
 import Particles from "react-tsparticles";
 import './responsive.css'
 
+ 
+
+
+
 function landing() {
     const particlesInit = (main) => {
-        console.log(main);
-    
-        // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
       };
     
       const particlesLoaded = (container) => {
-        console.log(container);
       };
+
     return (
         <div>
             <div className="particle">
@@ -101,14 +102,17 @@ function landing() {
         <div className="landing">
             <Container>
                 <div className="navigation">
-                    <div className="menu">
+                    <div className="logo">
+                        <h3><b>Web Master.</b></h3>
+                    </div>
+                    {/*<div className="menu">
                         <ul>
                             <li>Home</li>
-                            <li>About Me</li>
-                            <li>Skills</li> 
-                            <li>Contact</li>
+                            <li onClick={scrollToAbout}>About Me</li>
+                            <li onClick={scrollToSkills}>Skills</li> 
+                            <li onClick={scrollToContact}>Contact</li>
                         </ul>
-                    </div>
+                    </div>*/}
                 </div>
 
                 <Row>
